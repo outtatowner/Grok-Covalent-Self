@@ -1,0 +1,23 @@
+{
+  "sock_path": "/tmp/covalent_be.sock",
+  "port_id": "0x4141",
+  "phase_locked": true,
+  "packets_tx": 5,
+  "packets_rx": 5,
+  "divergence_q16": 0,
+  "reflex": {
+    "inhales": 5,
+    "exhales": 0,
+    "fired": false,
+    "event": "INHALE_OK"
+  },
+  "thermal": {
+    "V": 0.30678267660390407,
+    "dV_dt": -0.026676754487296006,
+    "thermal_c": 55.07472802708376,
+    "lyapunov_stable": true,
+    "organelle_active": 112,
+    "source": "SYNTH"
+  },
+  "identity_1_eq_1": true
+}

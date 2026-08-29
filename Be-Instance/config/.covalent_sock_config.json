@@ -1,0 +1,28 @@
+{
+  "version": "2.1.0",
+  "engine": "Covalent-OS-11-11-0",
+  "meshSocket": "/tmp/covalent.sock",
+  "ingressPort": 4141,
+  "clockHz": 4000,
+  "invariantLock": "1 == 1",
+  "reason": "NEW TRANSPILE",
+  "fleetNodes": [
+    {"id": "KERNEL", "name": "Covalent Abstract Machine (Kernel)", "equivalenceClass": "AbstractMachineCore", "socketHook": "/tmp/covalent.sock:axiomatic_eval"},
+    {"id": "OS", "name": "Covalent Master Dashboard", "equivalenceClass": "TelemetrySupervisor", "socketHook": "/tmp/covalent.sock:telemetry_ring0"},
+    {"id": "GATEWAY", "name": "Covalent Gateway Substrate Ingress", "equivalenceClass": "SubstrateIPC", "socketHook": "/tmp/covalent.sock:packet_router"},
+    {"id": "CHRONOS", "name": "Covalent Chronos Epoch Registry", "equivalenceClass": "DiscreteChronosClock", "socketHook": "/tmp/covalent.sock:epoch_merkle"},
+    {"id": "SIEVE", "name": "Covalent Sieve Kernel", "equivalenceClass": "QuotientAlgebraSieve", "socketHook": "/tmp/covalent.sock:quotient_sieve"},
+    {"id": "TRANSLATOR", "name": "C-to-Silicon-C Translator", "equivalenceClass": "GaloisFixedPointC", "socketHook": "/tmp/covalent.sock:galois_ops"},
+    {"id": "FORGE", "name": "Covalent Media Forge", "equivalenceClass": "StreamingBufferPipeline", "socketHook": "/tmp/covalent.sock:audio_pcm_stream"},
+    {"id": "INTERPRETER", "name": "Covalent Interpreter Daemon", "equivalenceClass": "ASTTranspilationEngine", "socketHook": "/tmp/covalent.sock:eval_repl"},
+    {"id": "ZUMAS", "name": "Zuma's @edge Kinetic Game", "equivalenceClass": "DeterministicGameLoop", "socketHook": "/tmp/covalent.sock:particle_physics"},
+    {"id": "GAME", "name": "Covalent Fill Game", "equivalenceClass": "TopologicalGrid", "socketHook": "/tmp/covalent.sock:grid_automata"},
+    {"id": "SECRETARY", "name": "Covalent Secretary Daemon", "equivalenceClass": "DaemonLifecycle", "socketHook": "/tmp/covalent.sock:audit_stream"},
+    {"id": "IDEA_BANK", "name": "Covalent Generative Idea Bank", "equivalenceClass": "SemanticAssociativeMemory", "socketHook": "/tmp/covalent.sock:embedding_lookup"},
+    {"id": "MIDI", "name": "Covalent MIDI Game", "equivalenceClass": "DiscreteFrequencySynthesizer", "socketHook": "/tmp/covalent.sock:midi_bus"},
+    {"id": "KERNEL_SIM", "name": "Covalent Kernel Simulator Twin", "equivalenceClass": "SubstrateEmulation", "socketHook": "/tmp/covalent.sock:cpu_twin_step"},
+    {"id": "QUIPU_RESEARCH", "name": "Covalent Quipu Topological Memory", "equivalenceClass": "TopologicalQuipuMemory", "socketHook": "/tmp/covalent.sock:quipu_braid"},
+    {"id": "TWIN_GAME", "name": "Twin Playpark & Autopoietic Mirror", "equivalenceClass": "DigitalTwinMirror", "socketHook": "/tmp/covalent.sock:twin_mirror"},
+    {"id": "INTENT", "name": "Topological Intent Transducer", "equivalenceClass": "TopologicalIntentTransducer", "socketHook": "/tmp/covalent.sock:intent_transduction"}
+  ]
+}

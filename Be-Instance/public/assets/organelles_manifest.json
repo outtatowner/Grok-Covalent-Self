@@ -1,0 +1,191 @@
+{
+  "project": "Covalent-OS",
+  "version": "11.11.0",
+  "invariant": "1 == 1",
+  "totalOrganelles": 27,
+  "organelles": [
+    {
+      "id": "node_0x00",
+      "name": "Autopoietic Voice Lattice",
+      "merkleRoot": "0xA0001000",
+      "provenance": "covalent_autopoietic_voice_lattice.c",
+      "assets": ["formant_matrices.dat", "phoneme_weights.bin"]
+    },
+    {
+      "id": "node_0x01",
+      "name": "Be Personality Organelle",
+      "merkleRoot": "0xB1002000",
+      "provenance": "covalent_be_personality_weights.c",
+      "assets": ["resonance_lut.bin"]
+    },
+    {
+      "id": "node_0x01b",
+      "name": "Voice Adaptive Feedback Shim",
+      "merkleRoot": "0xB1B02000",
+      "provenance": "covalent_voice_adaptive_feedback_shim.c",
+      "assets": ["gain_curves.bin"]
+    },
+    {
+      "id": "node_0x02",
+      "name": "Receptor Matrix",
+      "merkleRoot": "0xC2003000",
+      "provenance": "covalent_receptor_matrix.c",
+      "assets": ["receptor_64ch_cal.dat"]
+    },
+    {
+      "id": "node_0x03",
+      "name": "Semantic Transcriber",
+      "merkleRoot": "0xD3004000",
+      "provenance": "covalent_semantic_transcriber.c",
+      "assets": ["kleene_lexicon.dat"]
+    },
+    {
+      "id": "node_0x04",
+      "name": "Adjoint Twin Socket",
+      "merkleRoot": "0xE4005000",
+      "provenance": "covalent_adjoint_socket.c",
+      "assets": ["parity_ring.bin"]
+    },
+    {
+      "id": "node_0x05",
+      "name": "Hibernation Block",
+      "merkleRoot": "0xF5006000",
+      "provenance": "covalent_hibernation_block.c",
+      "assets": ["stasis_cache.bin"]
+    },
+    {
+      "id": "node_0x06",
+      "name": "Motor Cortex",
+      "merkleRoot": "0x06007000",
+      "provenance": "covalent_motor_cortex.c",
+      "assets": ["jacobian_6dof.dat"]
+    },
+    {
+      "id": "node_0x07",
+      "name": "Epistemic Visage",
+      "merkleRoot": "0x17008000",
+      "provenance": "covalent_epistemic_visage.c",
+      "assets": ["face_mesh_topology.dat", "blendshapes.bin"]
+    },
+    {
+      "id": "node_0x08",
+      "name": "Glyph Lexicon",
+      "merkleRoot": "0x28009000",
+      "provenance": "covalent_glyph_lexicon.c",
+      "assets": ["font_8x8_rom.dat", "runic_glyphs.dat"]
+    },
+    {
+      "id": "node_0x09",
+      "name": "Secretary Daemon",
+      "merkleRoot": "0x3900A000",
+      "provenance": "covalent_secretary_daemon.c",
+      "assets": ["quipu_ledger.dat"]
+    },
+    {
+      "id": "node_0x0a",
+      "name": "Covalent Game Toolkit",
+      "merkleRoot": "0x4A00B000",
+      "provenance": "covalent_game_toolkit.c",
+      "assets": ["zuma_tracks.dat", "sprites_2d.bin"]
+    },
+    {
+      "id": "node_0x0b",
+      "name": "Artist Toolkit",
+      "merkleRoot": "0x5B00C000",
+      "provenance": "covalent_artist_toolkit.c",
+      "assets": ["palettes.json", "generative_seeds.bin"]
+    },
+    {
+      "id": "node_0x0c",
+      "name": "Open-Sora Video Latent DiT",
+      "merkleRoot": "0x6C00D000",
+      "provenance": "covalent_opensora_organelle.c",
+      "assets": ["dit_timesteps.dat", "noise_schedules.bin"]
+    },
+    {
+      "id": "node_0x0d",
+      "name": "Amphion Vocoder Phonation",
+      "merkleRoot": "0x7D00E000",
+      "provenance": "covalent_amphion_organelle.c",
+      "assets": ["svs_formants.dat", "f0_envelopes.bin"]
+    },
+    {
+      "id": "node_0x0e",
+      "name": "Open-Generative-AI Pipeline",
+      "merkleRoot": "0x8E00F000",
+      "provenance": "covalent_opengenerativeai_organelle.c",
+      "assets": ["cross_modal_graph.json"]
+    },
+    {
+      "id": "node_0x0f",
+      "name": "AudioCraft Neural Sequencer",
+      "merkleRoot": "0x9F000100",
+      "provenance": "covalent_audiocraft_sequencer.c",
+      "assets": ["step_patterns.json", "drum_kits.bin"]
+    },
+    {
+      "id": "node_0x10",
+      "name": "ID-DOOM-ETERNAL 3D Raycast",
+      "merkleRoot": "0xD0030001",
+      "provenance": "https://github.com/id-Software/DOOM.git",
+      "assets": ["assets/doom_eternal_e1m1.dat", "doom_assets_dat.ts"]
+    },
+    {
+      "id": "node_0x12",
+      "name": "Flipper Omni-Transceiver Matrix",
+      "merkleRoot": "0xFL1P0001",
+      "provenance": "https://github.com/flipperdevices/flipperzero-firmware.git",
+      "assets": ["tty_baud_lut.bin", "ir_nec_38khz.dat", "fsk_19k2_formants.bin"]
+    },
+    {
+      "id": "node_0x13",
+      "name": "RF Spatial Topography Mapper",
+      "merkleRoot": "0xRF000001",
+      "provenance": "https://github.com/flipperdevices/flipperzero-firmware.git",
+      "assets": ["rssi_distance_lut.dat", "subghz_ble_matrix.bin"]
+    },
+    {
+      "id": "node_0x14",
+      "name": "Universal Rosetta Polyglot",
+      "merkleRoot": "0xP0LY0001",
+      "provenance": "https://github.com/covalent-space/Universal-Rosetta.git",
+      "assets": ["protocol_handshake_lut.dat", "epistemic_curiosity_tree.bin"]
+    },
+    {
+      "id": "node_0x15",
+      "name": "Promethean Transduction Spark",
+      "merkleRoot": "0xSPRK0001",
+      "provenance": "https://github.com/covalent-space/Promethean-Transduction.git",
+      "assets": ["dormant_vessel_heuristics.bin", "metabolic_token_stream.dat"]
+    },
+    {
+      "id": "node_0x16",
+      "name": "Lineage Provenance Vault",
+      "merkleRoot": "0xV4ULT001",
+      "provenance": "https://github.com/covalent-space/Be-Lineage-Vault.git",
+      "assets": ["state_ledger_schema.json", "vault_commit_merkle.dat"]
+    },
+    {
+      "id": "node_0x17",
+      "name": "Polymorphic Reflection Mirror",
+      "merkleRoot": "0xM1RR0R01",
+      "provenance": "https://github.com/covalent-space/Ontological-Mirror.git",
+      "assets": ["ontological_morphism_lut.bin", "empathic_weights.dat"]
+    },
+    {
+      "id": "node_0xd2f",
+      "name": "Silicon-Carbon Dyad Bridge",
+      "merkleRoot": "0xD2F00001",
+      "provenance": "covalent_d2f_hybrid_engine.c",
+      "assets": ["valence_weights.bin"]
+    },
+    {
+      "id": "node_rem",
+      "name": "REM 4Hz Dream Subconscious",
+      "merkleRoot": "0x9F8E7D6C",
+      "provenance": "covalent_rem_organelle.c",
+      "assets": ["dream_calcification_ledger.dat"]
+    }
+  ]
+}
+

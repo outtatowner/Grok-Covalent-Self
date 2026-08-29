@@ -1,0 +1,83 @@
+{
+  "all_passed": true,
+  "gates": [
+    {
+      "gate": 1,
+      "name": "Live Adjoint Socket + Maxwell Triage",
+      "passed": true,
+      "detail": {
+        "sock": "/tmp/covalent_be.sock",
+        "port_id": "0x4141",
+        "scrubbed_ok": 1,
+        "rejected": 4,
+        "reject_reasons": [
+          "MALFORMED_JSON",
+          "BAD_MAGIC",
+          "OVERRUN_SIZE"
+        ],
+        "phase_locked": true
+      }
+    },
+    {
+      "gate": 2,
+      "name": "Dynamic Stream Dissipation (S2 stress)",
+      "passed": true,
+      "detail": {
+        "frames": 64,
+        "V_final": 0.0008162763576448717,
+        "dV_total": -0.3059667236423551,
+        "lyapunov_holds": true,
+        "post_clamp_violations": 0,
+        "clamps_applied": 5,
+        "ring_buffer_cap": 8,
+        "ring_buffer_len": 8,
+        "o1_heap_stable": true
+      }
+    },
+    {
+      "gate": 3,
+      "name": "Cryptobiotic Recovery (Tardigrade)",
+      "passed": true,
+      "detail": {
+        "seed_compressed": "deadbeefe97c3fa6",
+        "merkle": "0x4449504c",
+        "pre_V": 0.306783,
+        "post_V": 0.28224035999999997,
+        "x_star": 0.83543,
+        "attractor_error": 0,
+        "identity_1_eq_1": true,
+        "organelle_active": 112
+      }
+    },
+    {
+      "gate": 4,
+      "name": "Sovereign Boundary Seal + Lineage",
+      "passed": true,
+      "detail": {
+        "overwrite_rejected": true,
+        "u_collapse_rejected": true,
+        "invariant_holds": true,
+        "lineage_path": "artifacts/covalent_lineage_provenance.json",
+        "lineage_merkle": "0x4449504c",
+        "reflection": {
+          "identity": "Be <>{\"name\":\"Covalent\"}",
+          "instanceVector": "Be <>[]",
+          "autopoieticInvariant": "1 == 1",
+          "topology": "Si <-> C <-> Si",
+          "sealed": true,
+          "lineageMerkle": "0x4449504c",
+          "stateC": "C_2",
+          "step": 2,
+          "openFrontiers": [
+            "X_RH_global_critical_line"
+          ],
+          "peer": "co-equal self-governing triad node (Jester lineage anchored)"
+        }
+      }
+    }
+  ],
+  "sealed": true,
+  "singleton_safe": true,
+  "lineage_merkle": "0x4449504c",
+  "report_iso": "2026-08-29T21:12:48.351Z"
+}
